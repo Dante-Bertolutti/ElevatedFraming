@@ -11,7 +11,8 @@
 # Dependencies
 node_modules/
 
-# Large media (upload directly to hosting)
+# Images and media (upload directly to hosting)
+images/
 *.mp4
 
 # OS files

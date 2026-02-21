@@ -4,10 +4,12 @@
   "description": "Professional website for Elevated Framing",
   "main": "index.html",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "concurrently \"tailwindcss -i ./src/input.css -o ./dist/output.css --watch\" \"live-server --port=3000\"",
     "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
+    "concurrently": "^9.1.0",
+    "live-server": "^1.2.2",
     "tailwindcss": "^3.4.0"
   },
   "keywords": ["framing", "construction", "website"],
