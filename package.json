@@ -1,0 +1,16 @@
+{
+  "name": "elevated-framing",
+  "version": "1.0.0",
+  "description": "Professional website for Elevated Framing",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "keywords": ["framing", "construction", "website"],
+  "author": "Elevated Framing",
+  "license": "MIT"
+}

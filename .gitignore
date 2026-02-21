@@ -1,0 +1,19 @@
+# Sensitive credentials
+.vscode/sftp.json
+.ssh/
+.api_token
+.msmtprc
+
+# Environment files
+.env
+*.env
+
+# Dependencies
+node_modules/
+
+# Large media (upload directly to hosting)
+*.mp4
+
+# OS files
+.DS_Store
+Thumbs.db
